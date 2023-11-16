@@ -1,0 +1,17 @@
+$family: 'Merriweather', 'Inter var', 'Inter', apple-system, BlinkMacSystemFont,
+  'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue',
+  sans-serif !default;
+
+@use 'vuetify' with (
+  $body-font-family: $family
+);
+
+:root {
+  font-family: 'Merriweather', sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: 'Merriweather', sans-serif;
+  }
+}
