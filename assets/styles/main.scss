@@ -6,6 +6,9 @@ $family: 'Merriweather', 'Inter var', 'Inter', apple-system, BlinkMacSystemFont,
   $body-font-family: $family
 );
 
+$primaryColor: #fa7414;
+$secondaryColor: #020740;
+
 :root {
   font-family: 'Merriweather', sans-serif;
 }
@@ -14,4 +17,21 @@ $family: 'Merriweather', 'Inter var', 'Inter', apple-system, BlinkMacSystemFont,
   :root {
     font-family: 'Merriweather', sans-serif;
   }
+}
+
+.v-img__img {
+  transition: transform 0.5s ease;
+}
+
+.v-card:hover .v-img__img {
+  transform: scale(1.1);
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: $primaryColor;
+  border-radius: 8px;
 }
