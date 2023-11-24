@@ -5,8 +5,8 @@
       <VMain>
         <slot />
       </VMain>
-      <!-- <Footer /> -->
-      <VFooter fixed app class="px-10">
+      <Footer />
+      <VFooter>
         <div class="mx-auto">
           <img src="@/assets/power.jpeg" class="brand pt-2" alt="AET logo" />
         </div>
