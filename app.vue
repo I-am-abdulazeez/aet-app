@@ -7,13 +7,6 @@
 </template>
 
 <style lang="scss">
-.divide {
-  width: 3em;
-  height: 0.2em;
-  margin: 0 auto;
-  background-color: rgba(255, 129, 40, 0.253);
-}
-
 .display-1 {
   font-size: 2em;
 }
