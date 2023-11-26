@@ -101,25 +101,25 @@
         <VDivider />
 
         <VCardText class="font-weight-light">
-          <v-row>
-            <v-col cols="12" lg="6" md="6" sm="12">
+          <VRow>
+            <VCol cols="12" lg="6" md="6" sm="12">
               <VIcon color="primary" class="mb-3">mdi-map-marker</VIcon>
               <p class="">38, Oyewole Street, Palmgrove, Ilupeju, Lagos.</p>
               <p class="mb-1 text-grey mt-2">
                 6B, Bendel Close, Victoria Island, Lagos.
               </p>
-            </v-col>
-            <v-col cols="12" lg="6" md="6" sm="12">
+            </VCol>
+            <VCol cols="12" lg="6" md="6" sm="12">
               <VIcon color="primary" class="mb-3">mdi-phone</VIcon>
               <p class="black--text">+234 815 303 8811.</p>
               <p class="mb-1 black--text">+234 815 303 8800.</p>
-            </v-col>
-          </v-row>
+            </VCol>
+          </VRow>
         </VCardText>
 
         <VDivider />
 
-        <VCardText class="py-8">
+        <VCardText class="py-5">
           {{ new Date().getFullYear() }} — <strong>AET</strong>
         </VCardText>
       </VCard>
