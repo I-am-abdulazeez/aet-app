@@ -7,8 +7,7 @@ export type CardContentType = {
   cardTitle: string;
   cardImage: string;
   cardImageLazyLoad: string;
-  cardText: string;
-  cardRoute: string;
+  cardText?: string;
 };
 
 export type HomeBgContentType = {
