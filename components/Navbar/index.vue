@@ -1,13 +1,12 @@
 <template>
   <nav>
     <VAppBar
-      height="70"
+      height="60"
       app
       fixed
       dense
-      color="white"
       scroll-behavior="elevate"
-      :scroll-threshold="200"
+      :scroll-threshold="1000"
     >
       <VContainer class="d-flex pa-0 align-center">
         <VAppBarNavIcon class="hidden-md-and-up" @click="toggleNav()" />
@@ -84,6 +83,10 @@ nav {
   img.brand {
     width: 200px;
   }
+}
+
+.container {
+  padding: 8px;
 }
 
 .ml-20 {
