@@ -18,6 +18,6 @@ export type HomeBgContentType = {
 
 export type HeaderType = {
   heading: string;
-  hasSubHeading?: boolean;
+  secText?: string;
   headerImage: string;
 };
