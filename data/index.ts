@@ -112,14 +112,14 @@ export const ProductCardContent: CardContentType[] = [
 
 export const HomeBgContent: HomeBgContentType[] = [
   {
-    src: 'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/carousel%2Fbg-1.jpg?alt=media&token=54c5e28a-af29-4ad5-a726-13a9e253bfcc',
+    src: 'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fpexels-saya-kimura-401107.jpg?alt=media&token=5ff37b4e-16d0-4a55-b86f-817382edca60',
     title: 'DELIVERING PROFICIENT TECHNICAL / AUTOMATED POWER SOLUTIONS ',
     subtitle: `We offer various forms of Power engineering services that encompass Power project development, Implementation, Standardization and Commissioning.
 Our scope covers Grid, off grid, Island and Independent Power involving Planning, Installation, Testing and Commissioning.
 `,
   },
   {
-    src: 'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/carousel%2Fbg-3.jpg?alt=media&token=2bb7d2c9-f5ae-40b2-a13b-c42d6c255a9f',
+    src: 'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fpexels-photomix-company-95916.jpg?alt=media&token=57f437ea-fa63-44e9-b51d-b2e17a240a14',
     title: 'REAL TIME DATA ORIENTED AND EFFICIENT POWER MANAGEMENT ',
     subtitle:
       '24/7 on-site operation and maintenance support with backend remote assistance banking on real time data for instant technical advice that help to ensure immediate resolution of escalation for dependable power.',
@@ -132,7 +132,7 @@ Our scope covers Grid, off grid, Island and Independent Power involving Planning
       'AET has over a decade years of experience in PIM (power infrastructure management); Rural, Industrial and Residential electrification; High, Medium and Low Voltage Projects; Solar- Inverter Alternative Power; and Accustomed Technical Know-how on wide range of generators SDMO, CAT, Perkins and others, medium and large sizes.',
   },
   {
-    src: 'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/carousel%2Fbg-4-1.jpg?alt=media&token=5a447178-ded6-4625-a318-4731b8a40572',
+    src: 'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fpexels-anamul-rezwan-1216544.jpg?alt=media&token=91558421-099a-45a5-a54b-022da809c4b7',
     title: 'REQUIREMENT BASED CONSTRUCTION PROJECTS',
     subtitle:
       'We have proven experience of designing and constructing need specific solution for Electrical panels; Automation; Clear fuel supply Lines and Backup storages; HT and LT circuits, Street lighting and others.',
