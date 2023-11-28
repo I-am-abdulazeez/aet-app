@@ -15,3 +15,9 @@ export type HomeBgContentType = {
   title: string;
   subtitle: string;
 };
+
+export type HeaderType = {
+  heading: string;
+  hasSubHeading?: boolean;
+  headerImage: string;
+};
