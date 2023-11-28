@@ -11,7 +11,7 @@ export const NavLinks: NavLinksType[] = [
   },
   {
     text: 'Products & Services',
-    path: '/product',
+    path: '/services',
   },
   {
     text: 'Industry',
