@@ -144,7 +144,7 @@ import type { HeaderType } from '~/types';
 const headerProps: HeaderType = {
   heading: 'About AET',
   headerImage:
-    'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fsec-images%2FAET.jpg?alt=media&token=2f548b7d-b793-45f6-a280-145fa908fb9f',
+    'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fpexels-jonathan-borba-3217852.jpg?alt=media&token=d6b21141-8341-47c8-91be-547ab08bd92f',
 };
 </script>
 
