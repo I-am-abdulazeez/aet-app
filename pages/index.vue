@@ -87,7 +87,7 @@ import 'viewerjs/dist/viewer.css';
 <style lang="scss">
 .home {
   #contact {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
       url('https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2FAET-carrer.jpg?alt=media&token=3cb47d90-bf22-4b5a-b7f1-0b638ce5ba14')
         center center;
     color: #fff !important;
