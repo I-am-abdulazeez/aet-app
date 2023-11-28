@@ -98,4 +98,11 @@ export default defineNuxtConfig({
       ],
     },
   },
+
+  nitro: {
+    devServer: {
+      // My files are under src, if yours are in the root you can change this to ./
+      watch: ['./src'],
+    },
+  },
 });
