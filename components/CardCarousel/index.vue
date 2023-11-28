@@ -27,7 +27,7 @@
               color="secondary"
               variant="text"
               class="text-center text-capitalize"
-              to="/product"
+              to="/services"
             >
               Read More
             </VBtn>
