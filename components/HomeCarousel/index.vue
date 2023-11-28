@@ -7,7 +7,7 @@
       :vertical="showDelimiter"
       class="h-5"
       color="#E0E0E0"
-      height="550"
+      height="600"
       :show-arrows="false"
       hide-delimiter-background
     >
@@ -45,7 +45,7 @@ import type { HomeBgContentType } from '~/types';
 const { width } = useDisplay();
 
 // const carouselHeight: string | number = width.value < 500 ? '600' : '600';
-const rowWeight: string | number = width.value < 500 ? '570px' : '650px';
+const rowWeight: string | number = width.value < 500 ? '620px' : '680px';
 
 const showDelimiter = width.value < 500 ? false : true;
 
@@ -59,7 +59,7 @@ const { items } = defineProps({
 
 <style lang="scss">
 .black-bg {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.75));
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65));
 }
 
 .mdi-circle {
