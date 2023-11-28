@@ -1,25 +1,7 @@
 <template>
   <div class="contact mt-5">
     <VRow align="center">
-      <VCol cols="12" lg="6" md="6" sm="12">
-        <div class="mapouter" v-if="map">
-          <div class="gmap_canvas">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.866582902615!2d3.3613929751868454!3d6.538527822988119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8dfbb32e01f9%3A0xbc56b206b1033c22!2sANTRUM%20ENGINEERING%20AND%20TECHNOLOGY%20COMPANY%20NIGERIA%20LIMITED!5e0!3m2!1sen!2sng!4v1701077250569!5m2!1sen!2sng"
-              width="600"
-              height="450"
-              style="border: 0"
-              allowfullscreen="false"
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
-        </div>
-        <div v-else>
-          <p>Loading map...</p>
-        </div>
-      </VCol>
-      <VCol cols="12" sm="12" lg="5" md="5" offset-lg="1" offset-md="1">
+      <VCol cols="12" sm="12" lg="5" md="5">
         <!-- <h2 class="font-weight-thin mb-4">Let's Hear from you.</h2> -->
         <VCard max-width="400">
           <VContainer>
@@ -78,6 +60,25 @@
             </VForm>
           </VContainer>
         </VCard>
+      </VCol>
+
+      <VCol cols="12" lg="7" md="7" sm="12">
+        <div class="mapouter" v-if="map">
+          <div class="gmap_canvas">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.866582902615!2d3.3613929751868454!3d6.538527822988119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8dfbb32e01f9%3A0xbc56b206b1033c22!2sANTRUM%20ENGINEERING%20AND%20TECHNOLOGY%20COMPANY%20NIGERIA%20LIMITED!5e0!3m2!1sen!2sng!4v1701077250569!5m2!1sen!2sng"
+              width="700"
+              height="450"
+              style="border: 0"
+              allowfullscreen="false"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+        <div v-else>
+          <p>Loading map...</p>
+        </div>
       </VCol>
     </VRow>
     <VSnackbar
@@ -151,13 +152,13 @@ const clearForm = () => {
     position: relative;
     text-align: right;
     height: 500px;
-    width: 600px;
+    width: 700px;
   }
   .gmap_canvas {
     overflow: hidden;
     background: none !important;
     height: 500px;
-    width: 600px;
+    width: 700px;
     padding: 1em;
   }
   @media (min-width: 1025px) and (max-width: 1280px) {
