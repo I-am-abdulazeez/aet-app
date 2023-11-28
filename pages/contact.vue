@@ -20,6 +20,6 @@ const headerProps: HeaderType = {
   heading: 'Contact Us',
   secText: "Let's hear from you...",
   headerImage:
-    'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fpexels-narcisa-aciko-1292464.jpg?alt=media&token=1172a16e-c102-4395-9b97-ff1ffff9ff6d',
+    'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fpexels-pixabay-33153.jpg?alt=media&token=ef0d93e5-b9d4-491e-a4eb-eba1e66abb97',
 };
 </script>
