@@ -12,7 +12,13 @@
           <VCol class="text-center" cols="12">
             <h1 class="display-1 font-weight-medium mb-4 animated bounce">
               <span class="text-accent">{{ Theader.heading }}</span>
-              <span v-if="Theader.hasSubHeading"> AET</span>
+              <!-- <span v-if="Theader.secText !== ''">{{ Theader.secText }}</span> -->
+              <h4
+                class="font-weight-regular text-subtitle-1"
+                v-if="Theader.secText !== ''"
+              >
+                {{ Theader.secText }}
+              </h4>
             </h1>
           </VCol>
         </VRow>
@@ -30,10 +36,6 @@ const { Theader } = defineProps({
     required: true,
   },
 });
-
-// const headerImage = ref(
-//   'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fsec-images%2FAET.jpg?alt=media&token=2f548b7d-b793-45f6-a280-145fa908fb9f'
-// );
 </script>
 
 <style lang="scss" scoped>
