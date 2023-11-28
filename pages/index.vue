@@ -2,7 +2,7 @@
   <div class="home">
     <Head>
       <Title>Home | Antrum Engineering </Title>
-      <Meta name="description" content="About Nuxi Store" />
+      <Meta name="description" content="Antrum Engineering Home Page" />
     </Head>
     <HomeCarousel :items="HomeBgContent" />
     <VContainer>
