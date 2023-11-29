@@ -3,62 +3,62 @@
     <VRow align="center">
       <VCol cols="12" sm="12" lg="5" md="5">
         <!-- <h2 class="font-weight-thin mb-4">Let's Hear from you.</h2> -->
-        <VCard max-width="400">
-          <VContainer>
-            <h6 class="text-h6 mb-5">Let's hear from you.</h6>
-            <VForm validate-on="submit lazy" @submit.prevent>
-              <VTextField
-                v-model="name"
-                :rules="nameValidationRule(name)"
-                :counter="20"
-                color="primary"
-                label="First name"
-                required
-                variant="underlined"
-              ></VTextField>
+        <VCard max-width="400" class="pa-7">
+          <h6 class="text-h6 mb-5">Let's hear from you.</h6>
+          <VForm validate-on="submit lazy" @submit.prevent>
+            <VTextField
+              v-model="name"
+              :rules="nameValidationRule(name)"
+              :counter="20"
+              color="primary"
+              label="First name"
+              required
+              variant="underlined"
+            ></VTextField>
 
-              <VTextField
-                v-model="email"
-                :rules="emailValidationRule(email)"
-                label="Email Address"
-                color="primary"
-                required
-                variant="underlined"
-              ></VTextField>
+            <VTextField
+              v-model="email"
+              :rules="emailValidationRule(email)"
+              label="Email Address"
+              color="primary"
+              required
+              variant="underlined"
+            ></VTextField>
 
-              <VTextarea
-                v-model="message"
-                :rules="[(v) => !!v || 'Messsage is required']"
-                label="Message"
-                required
-                rows="3"
-                row-height="15"
-                counter
-                no-resize
-                variant="underlined"
-              ></VTextarea>
-              <div class="d-flex my-5 justify-space-between">
-                <VBtn
-                  :loading="isLoading"
-                  type="submit"
-                  :disabled="isDisabled"
-                  color="secondary"
-                  variant="flat"
-                  size="small"
-                >
-                  Contact Us
-                </VBtn>
+            <VTextarea
+              v-model="message"
+              :rules="[(v) => !!v || 'Messsage is required']"
+              label="Message"
+              required
+              rows="3"
+              row-height="15"
+              counter
+              no-resize
+              variant="underlined"
+            ></VTextarea>
+            <div class="d-flex my-5 align-center justify-space-between">
+              <VBtn
+                :loading="isLoading"
+                type="submit"
+                :disabled="isDisabled"
+                color="accent"
+                class="text-capitalize"
+                variant="flat"
+                size="small"
+                append-icon="mdi-email-arrow-right"
+              >
+                Send Message
+              </VBtn>
 
-                <VBtn
-                  variant="flat"
-                  size="small"
-                  class="ml-4"
-                  @click="clearForm"
-                  >Clear form</VBtn
-                >
-              </div>
-            </VForm>
-          </VContainer>
+              <VBtn
+                variant="flat"
+                size="x-small"
+                class="text-capitalize"
+                @click="clearForm"
+                >Reset form</VBtn
+              >
+            </div>
+          </VForm>
         </VCard>
       </VCol>
 
