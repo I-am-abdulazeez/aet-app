@@ -1,7 +1,7 @@
 <template>
   <header
     :style="{
-      background: `linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      background: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
      url(${Theader.headerImage}) center center no-repeat`,
       backgroundSize: 'cover',
     }"
