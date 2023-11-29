@@ -16,7 +16,7 @@
           <VImg
             :src="industry.cardImage"
             :lazy-src="industry.cardImageLazyLoad"
-          ></VImg>
+          />
         </VCol>
         <VCol
           :order="index % 2 === 0 ? 2 : 1"
