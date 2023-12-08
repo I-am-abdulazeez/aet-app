@@ -11,7 +11,7 @@ const url = 'https://antrumengineering.com/';
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   // import styles
-  css: ['@/assets/styles/main.scss', 'viewer/dist/viewer.css'],
+  css: ['@/assets/styles/main.scss', 'viewerjs/dist/viewer.css'],
   devtools: { enabled: true },
   // enable takeover mode
   typescript: { shim: false },
