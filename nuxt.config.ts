@@ -1,8 +1,8 @@
 import vuetify from 'vite-plugin-vuetify';
 
 // PWA Config
-const title = 'ANtrum Engineering';
-const shortTitle = 'Nuxy Store';
+const title = 'Antrum Engineering';
+const shortTitle = 'Antrum engineering';
 const description =
   'ANTRUM ENGINEERING AND TECHNOLOGY COMPANY (NIGERIA) LIMITED (AET) RC1246959 is a wholly Nigerian engineering company incorporated under the laws of the Federal Republic of Nigeria to harness the capacity to render Electrical Power Engineering, Management and Consultancy Services having been successful with executing several electrical projects with vast experience garnered since 2005 from its conception and registration as AET’ Company.';
 const image = 'https://antrumengineering.com/logo.png';
@@ -11,7 +11,7 @@ const url = 'https://antrumengineering.com/';
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   // import styles
-  css: ['@/assets/styles/main.scss', 'viewerjs/dist/viewer.css'],
+  css: ['@/assets/styles/main.scss'],
   devtools: { enabled: true },
   // enable takeover mode
   typescript: { shim: false },
