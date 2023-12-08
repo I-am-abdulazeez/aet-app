@@ -80,8 +80,6 @@
 <script setup lang="ts">
 import { ViewerImages, ProductCardContent, HomeBgContent } from '~/data';
 import Viewer from 'v-viewer';
-
-import 'viewerjs/dist/viewer.css';
 </script>
 
 <style lang="scss">
