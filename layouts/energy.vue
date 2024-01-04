@@ -9,7 +9,7 @@
         scroll-behavior="elevate"
         :scroll-threshold="1000"
       >
-        <NuxtLink to="/" class="mx-auto">
+        <NuxtLink to="/energy" class="mx-auto">
           <img
             style="width: 150px"
             src="@/assets/energy.png"
