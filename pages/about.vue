@@ -80,7 +80,7 @@
           Core Values
           <CustomDivider />
         </h2>
-        <!-- <Values /> -->
+        <Values />
       </VContainer>
     </div>
 
