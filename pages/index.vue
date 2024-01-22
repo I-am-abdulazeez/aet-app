@@ -14,7 +14,7 @@
     </VContainer>
     <VContainer class="mt-5">
       <div>
-        <h1 class="text-center headline mb-2 font-weight-medium">
+        <h1 class="text-h5 text-center mb-2 font-weight-medium">
           About us
           <CustomDivider />
         </h1>
@@ -62,7 +62,7 @@
     </div>
 
     <VContainer>
-      <!-- <Clients /> -->
+      <Clients />
     </VContainer>
 
     <div id="contact">
