@@ -22,6 +22,8 @@
         <slot />
       </VMain>
       <ScrollToTop />
+
+      <Footer />
     </VApp>
   </nav>
 </template>
