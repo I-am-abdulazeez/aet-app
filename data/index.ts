@@ -1,4 +1,9 @@
-import type { CardContentType, HomeBgContentType, NavLinksType } from '~/types';
+import type {
+  CardContentType,
+  HomeBgContentType,
+  ListType,
+  NavLinksType,
+} from '~/types';
 
 export const NavLinks: NavLinksType[] = [
   {
@@ -200,5 +205,73 @@ export const IndustriesCardContent: CardContentType[] = [
       'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Findustries%2Findus-3.jpg?alt=media&token=67ba7034-f300-40be-9ca9-df0df3c59c4b',
     cardImageLazyLoad:
       'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Findustries%2Findus-blur-3.jpg?alt=media&token=a96cbd73-ca16-4ecc-987c-8c7e9d3cdf98',
+  },
+];
+
+export const AESSolutionList: ListType[] = [
+  {
+    title: 'Energy Efficiency Management Services (EEMS):',
+    text: `We offer comprehensive energy
+    efficiency management services to both residential and commercial clients. Our
+    expertise lies in identifying energy wastage, implementing cost-effective solutions,
+    and reducing environmental impact.`,
+  },
+  {
+    title: 'Renewable Energy Solutions (RES):',
+    text: `Antrum Energy Spectra leads the charge in the
+    renewable energy revolution, delivering cutting-edge and reliable green energy
+    solutions, including solar, wind, and other eco-friendly technologies. Our goal is to
+    equip clients with sustainable energy choices, showcasing our unwavering
+    commitment to a greener future.
+    `,
+  },
+  {
+    title: 'Smart Metering Solutions (SMS):',
+    text: `We provide cutting-edge smart metering solutions
+    that empower our clients with real-time energy consumption data. Our smart
+    metering systems enable efficient energy usage, billing accuracy, and informed
+    decision-making.`,
+  },
+  {
+    title: 'Building-Integrated Photovoltaics (BIPV):',
+    text: `AES excels in cutting-edge BIPV solutions,
+    seamlessly blending solar panels into building design, creating energy-generating
+    assets that harmonize aesthetics and functionality. solar, wind, and green tech, with a
+    focus on empowering clients through sustainable energy choices.
+    `,
+  },
+];
+export const ValueList: ListType[] = [
+  {
+    title: 'Teamwork',
+    text: `Collaboration is fundamental to our success. We integrate teamwork into
+    our operational methodology to ensure seamless coordination, efficient
+    communication, and optimal results for all stakeholders.`,
+  },
+  {
+    title: 'Innovation',
+    text: `We embrace innovation in all aspects of our work, constantly seeking
+    new and better ways to solve energy challenges and provide groundbreaking
+    solutions.
+    `,
+  },
+  {
+    title: 'Sustainability',
+    text: `We are dedicated to promoting sustainable practices that reduce
+    carbon footprints, conserve resources, and contribute to a greener planet.
+    `,
+  },
+  {
+    title: 'Excellence',
+    text: ` Our team is driven by a pursuit of excellence in every project we
+    undertake, ensuring the highest quality of service and results that stand the test of
+    time. `,
+  },
+  {
+    title: 'Safety and Environment',
+    text: `The safety of life and property is a cornerstone of our
+    approach. We prioritize Health, Safety, and Environment (HSE) measures in all our
+    practices, maintaining strict adherence to policies that safeguard the well-being of
+    our employees, clients, and communities.`,
   },
 ];
