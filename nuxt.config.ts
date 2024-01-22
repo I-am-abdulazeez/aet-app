@@ -15,7 +15,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   // enable takeover mode
   typescript: { shim: false },
-  build: { transpile: ['vuetify'] },
+  build: { transpile: ['vuetify', 'VueViewer'] },
   modules: [
     (_options, nuxt) => {
       nuxt.hooks.hook('vite:extendConfig', (config) => {
