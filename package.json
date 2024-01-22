@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@mdi/font": "^7.3.67",
-    "v-viewer": "^3.0.11",
+    "v-viewer": "^3.0.13",
     "viewerjs": "^1.11.6",
     "vue-countup-v3": "^1.4.1",
     "vue3-carousel": "^0.3.1"
