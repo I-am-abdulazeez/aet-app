@@ -21,3 +21,8 @@ export type HeaderType = {
   secText?: string;
   headerImage: string;
 };
+
+export type ListType = {
+  title: string;
+  text: string;
+};
