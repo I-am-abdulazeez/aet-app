@@ -35,7 +35,7 @@ export const NavLinks: NavLinksType[] = [
     text: 'Contact',
     path: '/contact',
   },
-];
+] as const;
 
 export const ProductCardContent: CardContentType[] = [
   {
@@ -142,12 +142,12 @@ Our scope covers Grid, off grid, Island and Independent Power involving Planning
     subtitle:
       'We have proven experience of designing and constructing need specific solution for Electrical panels; Automation; Clear fuel supply Lines and Backup storages; HT and LT circuits, Street lighting and others.',
   },
-];
+] as const;
 
 export const ViewerImages: string[] = [
   'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fshowcase%2Fshow-3.jpg?alt=media&token=f44a8678-1f79-4f99-a09d-9db0166d5bf5',
   'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fshowcase%2Fshow-8.jpg?alt=media&token=400f964d-2acb-460d-9edc-b2df7917c04e',
-];
+] as const;
 
 export const IndustriesCardContent: CardContentType[] = [
   {
@@ -206,7 +206,7 @@ export const IndustriesCardContent: CardContentType[] = [
     cardImageLazyLoad:
       'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Findustries%2Findus-blur-3.jpg?alt=media&token=a96cbd73-ca16-4ecc-987c-8c7e9d3cdf98',
   },
-];
+] as const;
 
 export const AESSolutionList: ListType[] = [
   {
@@ -240,7 +240,7 @@ export const AESSolutionList: ListType[] = [
     focus on empowering clients through sustainable energy choices.
     `,
   },
-];
+] as const;
 export const ValueList: ListType[] = [
   {
     title: 'Teamwork',
@@ -274,4 +274,133 @@ export const ValueList: ListType[] = [
     practices, maintaining strict adherence to policies that safeguard the well-being of
     our employees, clients, and communities.`,
   },
-];
+] as const;
+
+export const ClientsImage = [
+  {
+    id: 'Client 1',
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fclients%2Fcl-16.png?alt=media&token=3154c8f4-2d91-45e5-8ca8-f312c609376f',
+  },
+
+  {
+    id: 'Client 2',
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fclients%2Fcli-1.jpg?alt=media&token=45df49dd-ed15-48d7-a976-d84f41a8130d',
+  },
+  {
+    id: 'Client 3',
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fclients%2Fcl-10.jpg?alt=media&token=0917df94-fc3a-4911-b17e-a9dd80673e33',
+  },
+  {
+    id: 'Client 4',
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fclients%2Fcl-4.jpg?alt=media&token=ed6584bd-e29f-4229-87eb-f3f7e7282e70',
+  },
+  {
+    id: 'Client 5',
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fclients%2Fcl-9.jpg?alt=media&token=6a71c596-d079-4ba7-b5a9-1c4b43bc901a',
+  },
+  {
+    id: 'Client 6',
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fclients%2Fcl-15.png?alt=media&token=323fff38-d204-4710-b47f-f662dc794f26',
+  },
+  {
+    id: 'Client 7',
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fclients%2Fcli-5.jpg?alt=media&token=69e6ae09-e68b-4101-8106-90b7a1e642dd',
+  },
+  {
+    id: 'Client 8',
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fclients%2Fcli-8.jpg?alt=media&token=0d8351cc-9601-488f-9706-8ec67fbc30aa',
+  },
+  {
+    id: 'Client 9',
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fclients%2Fcli-2.jpg?alt=media&token=892ff47e-745a-4c2e-a99a-0c15aae967ed',
+  },
+  {
+    id: 'Client 10',
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fclients%2FNew%20clients%2Fcbre-excellerate_676.jpg?alt=media&token=36b44f85-94d5-4f85-bae3-4cd5530617f4',
+  },
+  {
+    id: 'Client 11',
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fclients%2Fcl-7.jpg?alt=media&token=d3065474-c620-4c2f-946e-0ecf4ff5ac9e',
+  },
+  {
+    id: 'Client 12',
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fclients%2Fcl-11.jpg?alt=media&token=8675312e-d7d4-4591-a70e-109f94417b9b',
+  },
+  {
+    id: 'Client 13',
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fclients%2FNew%20clients%2Fsas%20space.jpg?alt=media&token=8774f197-2782-4046-a857-b525308d532e',
+  },
+  {
+    id: 'Client 14',
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fclients%2Fcl-3.jpg?alt=media&token=e6feb5bd-5d9d-4eef-b0dc-82747f5d6288',
+  },
+  {
+    id: 'Client 15',
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fclients%2FNew%20clients%2Fibedc-logo.png?alt=media&token=0d191e4b-67c3-429f-a660-6fbb3ddfe0a1',
+  },
+  {
+    id: 'Client 16',
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fclients%2FNew%20clients%2FColeman-Cables.png?alt=media&token=576a4a44-8261-4400-b080-a9d8de2debd3',
+  },
+  {
+    id: 'Client 17',
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fclients%2Fcl-6.jpg?alt=media&token=95dfa127-5832-4f4e-ab6e-0c387786b320',
+  },
+  {
+    id: 'Client 18',
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fclients%2FNew%20clients%2Fsapio-u.jpeg?alt=media&token=f24721fc-d654-4218-91ec-f76a96738eae',
+  },
+  {
+    id: 'Client 19',
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fclients%2Fcli-12.jpg?alt=media&token=ec3687e5-2221-4ace-9508-a7c81fbe3cf0',
+  },
+  {
+    id: 'Client 20',
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fclients%2FNew%20clients%2Ffountain.jpg?alt=media&token=0d1d02ba-f0da-472e-b002-05c4f4b5acf0',
+  },
+  {
+    id: 'Client 21',
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fclients%2Fcl-14.jpg?alt=media&token=1d62087a-20dc-4e8c-b55e-48549f7eb868',
+  },
+  {
+    id: 'Client 22',
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fclients%2Fcl-13.jpg?alt=media&token=1e0c5f69-4c8c-4daa-bf4a-58410c3320f7',
+  },
+  {
+    id: 'Client 23',
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fclients%2FNew%20clients%2Furaga.png?alt=media&token=47c62964-781f-476f-88db-12bda20cf73d',
+  },
+  {
+    id: 'Client 24',
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fclients%2FNew%20clients%2FPerkins-Logo.png?alt=media&token=fea69bfd-a863-4ec6-8ab2-e601a2686899',
+  },
+  {
+    id: 'Client 25',
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fclients%2FNew%20clients%2Fupdc.png?alt=media&token=1f8bd79a-bddb-4e66-a021-083eff69f394',
+  },
+] as const;
