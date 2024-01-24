@@ -27,7 +27,7 @@
             :alt="client.id"
             :src="client.image"
             class="mx-auto"
-            height="100"
+            height="90"
           />
         </VCol>
       </VRow>
@@ -38,3 +38,9 @@
 <script lang="ts" setup>
 import { ClientsImage } from '~/data';
 </script>
+
+<style lang="scss" scoped>
+// .greyed {
+//   filter: grayscale(100%);
+// }
+</style>
