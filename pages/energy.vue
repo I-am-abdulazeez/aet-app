@@ -44,7 +44,7 @@
 
           <VCol cols="12" sm="12" md="4">
             <VImg
-              src="https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fpexels-led-supermarket-577513.jpg?alt=media&token=a36910bf-95ac-4937-ad0b-3af339f9c341"
+              src="https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2FAES%20Images%2FFirefly%20Artistic%20visuals%20blending%20natural%20elements%20with%20energy-efficient%20technology%2C%20showcasing%20crea.jpg?alt=media&token=6fb8127b-c9cd-4f16-90f8-594eac567b49"
               cover
             />
           </VCol>
@@ -115,7 +115,7 @@
               </section>
             </h3>
             <VImg
-              src="https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2FpowerPlant.jpg?alt=media&token=cf0504d6-e755-4739-b974-d49cca3fbefe"
+              src="https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2FAES%20Images%2FWhatsApp%20Image%202023-08-09%20at%202.05.43%20PM%20(3).jpg?alt=media&token=33768724-92c7-4ad0-a55e-d8fba84c9a5b"
             />
           </VCol>
 
@@ -134,40 +134,16 @@
     </div>
 
     <div class="mt-8">
-      <VContainer>
-        <VRow align="center" justify="center" class="text-center">
-          <VCol cols="12" lg="5" md="5" sm="12">
-            <VImg
-              class="mx-auto mb-7"
-              src="https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2FAET-Vision.svg?alt=media&token=673261c3-311f-4d34-8f6c-b093ae8059c1"
-              width="230"
-              lazy-src="https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2FAET-V-blur.svg?alt=media&token=99bf0370-7138-4d45-974c-2d8b4e85df1d"
-            >
-            </VImg>
-            <p class="mt-3 px-3">
-              To emerge as a leading force in Energy Solutions and Services
+      <Vision
+        visionText="To emerge as a leading force in Energy Solutions and Services
               contributing to Nigeria's Energy Sustainability and Global Net
-              Zero goal.
-            </p>
-          </VCol>
-          <VCol cols="12" lg="6" md="6" sm="12" offset-lg="1" offset-md="1">
-            <VImg
-              class="mx-auto mb-7"
-              src="https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2FAET-M.svg?alt=media&token=b6278719-3591-4b10-9583-69a7431c65be"
-              width="220"
-              lazy-src="https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2FAET-M-blur.svg?alt=media&token=8745a4ca-c1ee-4abb-a5c2-193f17d69a07"
-            >
-            </VImg>
-            <p class="mt-3 px-3">
-              Creating value for our esteemed clients through alternative
+              Zero goal."
+        missionText=" Creating value for our esteemed clients through alternative
               efficient power technologies, renewables and energy management
               solutions that conform with engineering standard practices, health
               & safety and the environment. Professionalism and Integrity drives
-              our mission.
-            </p>
-          </VCol>
-        </VRow>
-      </VContainer>
+              our mission."
+      />
     </div>
 
     <div class="bg-secondary py-6">
@@ -191,105 +167,7 @@
           Our Core Values
           <CustomDivider :has-ml="true" />
         </h1>
-        <div>
-          <VRow align="center" class="mt-7" id="first">
-            <VCol cols="12" sm="12" md="5">
-              <VImg
-                src="https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2FpowerPlant.jpg?alt=media&token=cf0504d6-e755-4739-b974-d49cca3fbefe"
-                lazy-src="https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fblur-1.jpg?alt=media&token=64fa3bae-1d6b-4fb1-b126-09677f93699a"
-              ></VImg>
-            </VCol>
-            <VCol cols="12" sm="12" md="6" offset-md="1" offset-lg="1">
-              <VChip
-                color="secondary"
-                class="text-subtitle-2 font-weight-medium mb-4"
-              >
-                ENERGY EFFICIENCY MANAGEMENT SERVICES (EEMS)
-              </VChip>
-              <p class="text-justify font-weight-regular">
-                * Energy audit <br />
-                * Energy Monitoring and Management systems <br />
-                * Demand Response Program <br />
-                * Energy Efficient Appliances and Equipment <br />
-                * Behavioural Change and Training <br />
-                * Industrial Process Optimization
-              </p>
-            </VCol>
-          </VRow>
-          <!--First Row-->
-
-          <VRow align="center" class="mt-7" id="second">
-            <VCol cols="12" sm="12" md="5">
-              <VChip
-                color="secondary"
-                class="text-subtitle-2 font-weight-medium mb-4"
-              >
-                RENEWABLE ENERGY SOLUTIONS (RES)
-              </VChip>
-              <p class="text-justify font-weight-regular">
-                * Solar PV System <br />
-                * Solar Thermal System <br />
-                * Wind Turbine Projects<br />
-                * Tidal and Wave Energy System <br />
-                * Energy Storage Systems <br />
-                * Micro-grid and Off-grid Solution
-              </p>
-            </VCol>
-            <VCol cols="12" sm="12" md="6" offset-md="1" offset-lg="1">
-              <VImg
-                src="https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2F3d.jpg?alt=media&token=c2617a76-94a4-4fca-9772-6490cc38969e"
-                lazy-src="https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2F3d-blur.jpg?alt=media&token=419afc0f-4c49-4b3d-93ed-a0f22298a9b5"
-              ></VImg>
-            </VCol>
-          </VRow>
-          <!--Second Row-->
-
-          <VRow align="center" class="mt-7" id="third">
-            <VCol cols="12" sm="12" md="6">
-              <VImg
-                src="https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2FpowerInfra.jpg?alt=media&token=28786c86-dc40-4a58-b9bb-eeee0169ddda"
-                lazy-src="https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fblur-2.jpg?alt=media&token=2d37f080-79ee-4f88-b11c-a3f829ad38e4"
-              ></VImg>
-            </VCol>
-            <VCol cols="12" sm="12" md="5" offset-md="1" offset-lg="1">
-              <VChip color="secondary" class="font-weight-medium mb-4">
-                SMART METERING SOLUTIONS (SMS)
-              </VChip>
-              <p class="= font-weight-regular text-justify">
-                * Consultation and System Design <br />
-                * Smart Meter Deployment <br />
-                * Data Management and Analytics <br />
-                * Vending and Tariff Management <br />
-                * Metering Infrastructure and Data Management System: MIM & MDMS
-                <br />
-                * Customer Support and Education
-              </p>
-            </VCol> </VRow
-          ><!--Third Row-->
-
-          <VRow align="center" class="mt-7" id="fourth">
-            <VCol cols="12" sm="12" md="6">
-              <VChip color="secondary" class="title font-weight-medium mb-4"
-                >BUILDING-INTEGRATED PHOTOVOLTAICS (BIPV) & SMART BUILDING
-                TECHNOLOGY (SBT)</VChip
-              >
-              <p class="font-weight-regular text-justify">
-                * Engineering and Integration <br />
-                * Electrical System Installation and Integration <br />
-                * Building Envelope Improvement <br />
-                * Monitoring and Maintenance <br />
-                * Workshop and Seminars <br />
-                * Environmental Impact Assessment (EIA)
-              </p>
-            </VCol>
-            <VCol cols="12" sm="12" md="5" offset-md="1" offset-lg="1">
-              <VImg
-                src="https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fshowcase%2Fshow-10.jpg?alt=media&token=8baa552a-7fb3-4d64-9c71-b62d6118d20b"
-                lazy-src="https://firebasestorage.googleapis.com/v0/b/aet-site-ac2f5.appspot.com/o/images%2Fblur-15.jpg?alt=media&token=64e751d7-9f56-4993-a5c8-517fc6c4b913"
-              ></VImg>
-            </VCol> </VRow
-          ><!--Fourth Row-->
-        </div>
+        <AESValues />
       </VContainer>
     </div>
   </div>
