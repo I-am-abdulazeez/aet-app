@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "@types/nodemailer": "^6.4.15",
     "nuxt": "^3.8.0",
     "sass": "^1.69.5",
     "vite-plugin-vuetify": "^1.0.2",
@@ -20,6 +21,7 @@
   },
   "dependencies": {
     "@mdi/font": "^7.3.67",
+    "nodemailer": "^6.9.14",
     "v-viewer": "^3.0.13",
     "viewerjs": "^1.11.6",
     "vue-countup-v3": "^1.4.1",
