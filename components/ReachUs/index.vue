@@ -5,7 +5,11 @@
         <!-- <h2 class="font-weight-thin mb-4">Let's Hear from you.</h2> -->
         <VCard max-width="400" class="pa-7">
           <h6 class="text-h6 mb-5">Let's hear from you.</h6>
-          <VForm validate-on="submit lazy" @submit.prevent>
+          <VForm
+            validate-on="submit lazy"
+            ref="contactForm"
+            @submit.prevent="submitForm()"
+          >
             <VTextField
               v-model="name"
               :rules="nameValidationRule(name)"
@@ -27,7 +31,7 @@
 
             <VTextarea
               v-model="message"
-              :rules="[(v) => !!v || 'Messsage is required']"
+              :rules="[(v: any) => !!v || 'Messsage is required']"
               label="Message"
               required
               rows="3"
@@ -40,7 +44,6 @@
               <VBtn
                 :loading="isLoading"
                 type="submit"
-                :disabled="isDisabled"
                 color="accent"
                 class="text-capitalize"
                 variant="flat"
@@ -110,6 +113,7 @@
 
 <script setup lang="ts">
 import { useNameValidator, useEmailValidator } from '~/composables';
+import { VForm } from 'vuetify/components';
 
 const { nameValidationRule } = useNameValidator();
 const { emailValidationRule } = useEmailValidator();
@@ -117,6 +121,8 @@ const { emailValidationRule } = useEmailValidator();
 const name = ref('');
 const email = ref('');
 const message = ref('');
+
+const contactForm = ref<InstanceType<typeof VForm> | null>(null);
 
 const map = ref(false);
 const isLoading = ref(false);
@@ -128,12 +134,50 @@ onMounted(() => {
   map.value = true;
 });
 
-const submitForm = async () => {};
+// const submitForm = async () => {
+//   if (contactForm?.value?.isValid) {
+//     isLoading.value = true;
+//     isDisabled.value = true;
+//     const data = {
+//       name: name.value,
+//       email: email.value,
+//       message: message.value,
+//     };
+//   } else {
+//     isDisabled.value = true;
+//     isLoading.value = false;
+//   }
+// };
+
+const submitForm = async () => {
+  if (contactForm?.value?.isValid) {
+    isLoading.value = true;
+    isDisabled.value = true;
+    const data = {
+      name: name.value,
+      email: email.value,
+      message: message.value,
+    };
+
+    try {
+      const response = await $fetch('/api/contact', {
+        method: 'POST',
+        body: data,
+      });
+      // Handle response here (e.g., show a success message)
+      console.log('Email sent successfully', response);
+    } catch (error) {
+      // Handle error here (e.g., show an error message)
+      console.error('Error sending email', error);
+    } finally {
+      isLoading.value = false;
+      isDisabled.value = false;
+    }
+  }
+};
 
 const clearForm = () => {
-  name.value = '';
-  email.value = '';
-  message.value = '';
+  contactForm.value?.reset();
 };
 </script>
 
