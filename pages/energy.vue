@@ -153,11 +153,24 @@
           <CustomDivider :has-ml="false" />
         </h1>
 
-        <VCard class="lh-sm my-5" v-for="list in ValueList" :key="list.title">
-          <VCardTitle class="text-big">{{ list.title }}</VCardTitle>
-          <VCardText lass="mt-2">{{ list.text }}</VCardText>
-          <VCardItem> </VCardItem>
-        </VCard>
+        <VRow>
+          <VCol
+            v-for="list in ValueList"
+            :key="list.title"
+            cols="12"
+            sm="12"
+            md="4"
+          >
+            <VCard class="lh-sm my-5" height="505">
+              <img :src="list.image" alt="Image" />
+              <VCardItem>
+                <VCardTitle class="text-big pl-3">{{ list.title }}</VCardTitle>
+                <VCardText class="mt-2">{{ list.text }}</VCardText>
+              </VCardItem>
+              <!-- <VCardItem> </VCardItem> -->
+            </VCard>
+          </VCol>
+        </VRow>
       </VContainer>
     </div>
 
