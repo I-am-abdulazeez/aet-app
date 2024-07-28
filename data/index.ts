@@ -247,6 +247,7 @@ export const ValueList: ListType[] = [
     text: `Collaboration is fundamental to our success. We integrate teamwork into
     our operational methodology to ensure seamless coordination, efficient
     communication, and optimal results for all stakeholders.`,
+    image: '@/assets/images/teamwork.svg',
   },
   {
     title: 'Innovation',
@@ -254,18 +255,21 @@ export const ValueList: ListType[] = [
     new and better ways to solve energy challenges and provide groundbreaking
     solutions.
     `,
+    image: '@/assets/images/innovate.png',
   },
   {
     title: 'Sustainability',
     text: `We are dedicated to promoting sustainable practices that reduce
     carbon footprints, conserve resources, and contribute to a greener planet.
     `,
+    image: '@/assets/images/sus.png',
   },
   {
     title: 'Excellence',
     text: ` Our team is driven by a pursuit of excellence in every project we
     undertake, ensuring the highest quality of service and results that stand the test of
     time. `,
+    image: '@/assets/images/approvee.png',
   },
   {
     title: 'Safety and Environment',
@@ -273,6 +277,7 @@ export const ValueList: ListType[] = [
     approach. We prioritize Health, Safety, and Environment (HSE) measures in all our
     practices, maintaining strict adherence to policies that safeguard the well-being of
     our employees, clients, and communities.`,
+    image: '@/assets/images/safety.png',
   },
 ] as const;
 
