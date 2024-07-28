@@ -25,4 +25,5 @@ export type HeaderType = {
 export type ListType = {
   title: string;
   text: string;
+  image?: string;
 };
