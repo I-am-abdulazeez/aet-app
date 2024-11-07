@@ -104,7 +104,7 @@
           <VRow>
             <VCol cols="12" lg="6" md="6" sm="12">
               <VIcon color="primary" class="mb-3">mdi-map-marker</VIcon>
-              <p class="">38, Oyewole Street, Palmgrove, Ilupeju, Lagos.</p>
+              <p class="">37, Bode Thomas Street, Palmgrove, Lagos.</p>
               <p class="mb-1 text-grey mt-2">
                 6B, Bendel Close, Victoria Island, Lagos.
               </p>
